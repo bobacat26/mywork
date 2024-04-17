@@ -8,7 +8,7 @@ void GetPaths(ifstream& source, Paths64& paths)
       continue;
     last_read_line_pos -= 1; // workaround for LF vs LFCR (#764)
     source.seekg(last_read_line_pos, ios_base::beg);
-    break;
+    break;//good
   }
 }
 
