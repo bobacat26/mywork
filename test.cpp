@@ -36,3 +36,4 @@ bool LoadTestNum(ifstream &source, int test_num,
       ct = ClipType::Intersection;
     else if (line.find("UNION") != string::npos)
       ct = ClipType::Union;
+//nice work
